@@ -1,0 +1,855 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: skyblue;
+}
+
+
+ul#list1 li{
+	display: inline;
+    position: relative;
+    top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.resname{
+    color: #EE432C;
+    font-weight: bold;
+    font-family: Snell Roundhand, cursive;
+    position: relative;
+    left: 10%;
+}
+
+.login{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 70%;
+}
+.regi{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 71%;
+}
+
+#loggedin{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    left: 50%;
+}
+
+#loggedin:hover{
+    color: red;
+}
+
+#manageorder{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 51%;
+}
+
+#manageorder:hover{
+    color: red;
+}
+
+#manage-order2{
+    height: 200px;
+    width: 100%;
+    background-color: skyblue;
+}
+
+#editbutton {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+
+
+#cancelorder{
+
+    color: white;
+    height: 50px;
+    width: 100px;
+    font-size: 14px;
+    background-color: #f44336;
+    border-style: none;
+    border-color: #EE432C;
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+
+#cancelorder:hover{
+    cursor: pointer;
+}
+
+.logout2{
+    display: inline;
+    position: relative;
+    left: 52%;
+
+}
+
+
+.logout2 button{
+    border: none;
+    background-color: skyblue;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.logout2 button:hover{
+    cursor: pointer;
+}
+
+.user-register{
+    height: 500px;
+    width: 500px;
+    background-color: #F8F9FA;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    position: relative;
+    left: 35%;
+    top: 100px;
+}
+
+.reginame{
+    height: 35px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 30px;
+}
+
+.regimail{
+    height: 35px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 40px;
+}
+
+.regipass{
+    height: 35px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 50px;
+}
+
+.regicpass{
+    height: 35px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 60px;
+}
+
+.regisubmit{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    background-color: #EE432C;
+    border-style: none;
+    border-color: #EE432C;
+    border-radius: 5px;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 80px;
+}
+
+.regisubmit:hover{
+    cursor: pointer;
+}
+
+.rname{
+    position: relative;
+    top: 20px;
+    left: 60px;
+    font-weight: 700;
+}
+
+.rmail{
+    position: relative;
+    top: 35px;
+    left: 60px;
+    font-weight: 700;
+}
+
+.rpass{
+    position: relative;
+    top: 45px;
+    left: 60px;
+    font-weight: 700;
+}
+
+.rcpass{
+    position: relative;
+    top: 55px;
+    left: 60px;
+    font-weight: 700;
+}
+
+.rreg{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial;
+    position: relative;
+    left: 35%;
+    text-transform: uppercase;
+}
+
+.cacc{
+    font-size: 18px;
+    position: relative;
+    left: 35%;
+    top: 5px;
+}
+
+.login-user{
+    height: 500px;
+    width: 500px;
+    background-color: #F8F9FA;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    position: relative;
+    left: 35%;
+    top: 150px;
+}
+
+#lulogin{
+    font-size: 24px;
+    font-weight: bold;
+    color: #EE432C;
+    position: relative;
+    left: 40%;
+    top: 100px;
+}
+
+#lumail{
+    position: relative;
+    top: 130px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#lumailbox{
+    height: 35px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 140px;
+}
+
+#lupass{
+    position: relative;
+    top: 170px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#lupassbox{
+    height: 35px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 180px;
+}
+
+#lusubmit{
+    position: relative;
+    top: 200px;
+    left: 60px;
+
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    background-color: #EE432C;
+    border-style: none;
+    border-color: #EE432C;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+#midsec{
+    height: 785px;
+    width: 100%;
+    background-color: whitesmoke;
+    background-image: url("/images/pexels-terje-sollie-313700.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 785px;
+}
+
+
+
+.reservation{
+    height: 300px;
+    width: 300px;
+    background-color: #5F60A8;
+    position: relative;
+    left: 10%;
+    top: 25%;
+    float: left;
+}
+
+.reservation2{
+    height: 300px;
+    width: 300px;
+    background-color: #40925B;
+    position: relative;
+    left: 15%;
+    top: 25%;
+    float: left;
+}
+
+.reservation3{
+    height: 300px;
+    width: 300px;
+    background-color: #EA5738;
+    position: relative;
+    left: 20%;
+    top: 25%;
+    float: left;
+}
+
+.reservation4{
+    height: 300px;
+    width: 300px;
+    background-color: #5338ea;
+    position: relative;
+    left: 25%;
+    top: 25%;
+    float: left;
+}
+
+.adminreservation{
+    height: 300px;
+    width: 300px;
+    background-color: #40925B;
+    float: left;
+    position: relative;
+    top: 30%;
+    left: 120px;
+}
+
+.adminreservation2{
+    height: 300px;
+    width: 300px;
+    background-color: #EA5738;
+    float: left;
+    position: relative;
+    top: 30%;
+    left: 140px;
+}
+
+.adminreservation3{
+    height: 300px;
+    width: 300px;
+    background-color: fuchsia;
+    float: left;
+    position: relative;
+    top: 30%;
+    left: 160px;
+}
+
+.adminreservation4{
+    height: 300px;
+    width: 300px;
+    background-color: #a8885f;
+    float: left;
+    position: relative;
+    top: 30%;
+    left: 180px;
+}
+
+.employemanage{
+    height: 300px;
+    width: 300px;
+    background-color: #5338ea;
+    float: left;
+    position: relative;
+    top: 30%;
+    left: 200px;
+}
+
+#reserve-form{
+    height: 800px;
+    width: 700px;
+    background-color: #F8F9FA;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    position: relative;
+    left: 35%;
+    top: 50px;
+}
+
+#rtname{
+    position: relative;
+    top: 30px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#rtnamebox{
+    height: 35px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 40px;
+}
+
+#rtmail{
+    position: relative;
+    top: 45px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#rtmailbox{
+    height: 35px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 50px;
+}
+
+#rtdate{
+    position: relative;
+    top: 55px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#rtdatebox{
+    height: 35px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 60px;
+}
+
+#rtphone{
+    position: relative;
+    top: 65px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#rtphonebox{
+    height: 35px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 70px;
+}
+
+#rtguest{
+    position: relative;
+    top: 75px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#rtguestbox{
+    height: 35px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 80px;
+}
+
+#rttime{
+    position: relative;
+    top: 85px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#rttimebox{
+    height: 35px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 90px;
+}
+
+#rtdesc{
+    position: relative;
+    top: 95px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#rtdescbox{
+    height: 200px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 100px;
+}
+
+#rtsubmit{
+    position: relative;
+    top: 115px;
+    left: 60px;
+
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    background-color: #EE432C;
+    border-style: none;
+    border-color: #EE432C;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+#rttitle{
+    font-size: 24px;
+    font-weight: bold;
+    color: #EE432C;
+    position: relative;
+    left: 33%;
+    top: 10px;
+}
+
+#tablebook{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: 130px;
+    left: 70px;
+}
+
+#homedel{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: 130px;
+    left: 35px;
+}
+
+#empmanage{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: 130px;
+    left: 35px;
+}
+
+#menubar{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: 130px;
+    left: 70px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#menutable{
+    height: 250px;
+    width: 400px;
+    font-size: 20px;
+    position: relative;
+    top: 200px;
+    left: 35%;
+}
+
+#bottomsec{
+    height: 60px;
+    width: 100%;
+    background-color: skyblue;
+}
+
+#copyright{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+    left: 40%;
+}
+
+#onlineorder{
+    height: 500px;
+    width: 500px;
+    background-color: #F8F9FA;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    position: relative;
+    left: 35%;
+    top: 100px;
+}
+
+#hdname{
+    position: relative;
+    top: 30px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#hdnamebox{
+    height: 35px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 40px;
+}
+
+#hdcont{
+    position: relative;
+    top: 45px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#hdcontbox{
+    height: 35px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 50px;
+}
+
+#hdaddr{
+    position: relative;
+    top: 55px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#hdaddrbox{
+    height: 35px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 60px;
+}
+
+#hditem{
+    position: relative;
+    top: 65px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#hdmenu{
+    position: relative;
+    top: 75px;
+    left: 60px;
+}
+
+#hdmenubox{
+    position: relative;
+    top: 75px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#hdbutton{
+    position: relative;
+    top: 90px;
+    left: 60px;
+
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    background-color: #EE432C;
+    border-style: none;
+    border-color: #EE432C;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+#hddeli{
+    font-size: 18px;
+    font-weight: bold;
+    color: #EE432C;
+    position: relative;
+    left: 33%;
+    top: 5px;
+}
+
+#mho{
+    height: 100px;
+    width: 100%;
+    background-color: skyblue;
+}
+
+#orderreview{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+#reviewbox{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    position: relative;
+    top: 150px;
+    left: 40%;
+    background-color: #F8F9FA;
+}
+
+#rrtitle{
+    font-size: 24px;
+    font-weight: bold;
+    color: #EE432C;
+    position: relative;
+    left: 16%;
+    top: 10px;
+}
+
+#rrrating{
+    position: relative;
+    top: 40px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#rrratingbox{
+    height: 35px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 50px;
+}
+
+#rrreview{
+    position: relative;
+    top: 60px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#rrreviewbox{
+    height: 200px;
+    width: 350px;
+    border-style: groove;
+    border-color: #F8F9FA;
+    border-width: 2px;
+    position: relative;
+    left: 60px;
+    top: 70px;
+}
+
+#rrbutton{
+    position: relative;
+    top: 90px;
+    left: 60px;
+
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    background-color: #EE432C;
+    border-style: none;
+    border-color: #EE432C;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
